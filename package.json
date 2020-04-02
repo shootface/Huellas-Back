@@ -1,0 +1,31 @@
+{
+  "name": "huellas-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shootface/Huellas-Back.git"
+  },
+  "author": "Juan Guaba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shootface/Huellas-Back/issues"
+  },
+  "homepage": "https://github.com/shootface/Huellas-Back#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.0.0",
+    "querystring": "^0.2.0",
+    "sequelize": "^5.21.5"
+  }
+}
