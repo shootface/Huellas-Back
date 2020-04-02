@@ -2,26 +2,26 @@ const sq = require('sequelize');
 const poo = require('../database');
 
 const producto = poo.define('producto',{
-    PK_PRODUCTO:{
+    pk_producto:{
         type: sq.INTEGER,
         primaryKey: true
     },
-    C_NOMBRE:{
+    c_nombre:{
         type: sq.STRING(30)
     },
-    K_SUBCATEGORIA:{
+    k_subcategoria:{
         type: sq.INTEGER
     },
-    V_NOMBREIMAGEN:{
+    v_nombreimagen:{
         type: sq.STRING(300)
     },
-    N_CANTIDAD:{
+    n_cantidad:{
         type: sq.INTEGER
     }
 },{
     timestamps: false,
     freezeTableName: true,
-    tableName: 'Producto',
+    tableName: 'producto',
     modelName: 'Producto'
 });
 

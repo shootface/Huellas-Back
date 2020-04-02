@@ -16,4 +16,8 @@ app.use(function(req, res, next) {
 });
 // routes
 app.use(require('./routes/index'));
+app.use('/productos',require('./routes/producto'));
+app.use('/usuarios',require('./routes/usuario'));
+app.use('/login',require('./routes/login'));
+
 module.exports = app;

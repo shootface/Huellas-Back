@@ -2,21 +2,21 @@ const sq = require('sequelize');
 const poo = require('../database');
 
 const usuario = poo.define('usuario',{
-    PK_CEDULA:{
+    pk_cedula:{
         type: sq.INTEGER,
         primaryKey: true
     },
-    C_NOMBRE:{
+    c_nombre:{
         type: sq.STRING(30)
     },
-    C_PASS: {
+    c_pass: {
         type: sq.STRING(30)
     }
 },{
     timestamps: false,
     freezeTableName: true,
-    tableName: 'Usuario',
-    modelName: 'Usuario'
+    tableName: 'usuario',
+    modelName: 'usuario'
 });
 
 module.exports.usuario = usuario;
