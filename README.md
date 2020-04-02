@@ -3,6 +3,7 @@
 ## Integrantes
 
 Juan Camilo Guaba Montoya         20151020047
+
 Jose Alejandro Gonzalez Hernandez 20151020105
 
 ### Entrega final de Tendencias avanzadas de software
